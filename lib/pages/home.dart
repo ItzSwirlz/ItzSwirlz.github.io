@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:yaru_icons/yaru_icons.dart';
 import 'package:yaru_widgets/yaru_widgets.dart';
 
+import 'blogs.dart';
+
 class HomePage extends StatefulWidget {
   @override
   State<HomePage> createState() => _HomePageState();
@@ -15,6 +17,14 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: const Text("Blog of Joshua Peisach"),
         actions: [
+          TextButton(
+            child: Text('Blogs'),
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => BlogsPage()));
+            },
+          ),
           IconButton(
             icon: const Icon(YaruIcons.information),
             onPressed: () {

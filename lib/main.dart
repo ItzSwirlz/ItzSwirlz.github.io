@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Blog of Joshua Peisach',
-      theme: yaruDark,
+      theme: yaruPurpleDark, // TODO: Check for system theme is light or dark + change color depending on holidays
       home: HomePage(),
     );
   }
