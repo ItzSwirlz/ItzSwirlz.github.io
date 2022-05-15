@@ -21,8 +21,8 @@ class _HomePageState extends State<HomePage> {
             child: Text('Blogs'),
             onPressed: () {
               Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => BlogsPage()));
+                  context,
+                  MaterialPageRoute(builder: (context) => BlogsPage()));
             },
           ),
           IconButton(
@@ -32,7 +32,7 @@ class _HomePageState extends State<HomePage> {
                   context: context,
                   applicationName: "ItzSwirlz's Blog",
                   applicationVersion:
-                      "View the licenses of the packages used to make this blog!",
+                  "View the licenses of the packages used to make this blog!",
                   applicationLegalese: 'GNU General Public License v3.0');
             },
           ),
