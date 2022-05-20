@@ -13,7 +13,7 @@ class _BlogsPageState extends State<BlogsPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Blog of Joshua Peisach"),
+        title: const Text("Website of Joshua Peisach"),
         actions: [
           TextButton(
             child: Text('Blogs'),
@@ -28,7 +28,7 @@ class _BlogsPageState extends State<BlogsPage> {
             onPressed: () {
               showAboutDialog(
                   context: context,
-                  applicationName: "ItzSwirlz's Blog",
+                  applicationName: "ItzSwirlz's Website",
                   applicationVersion:
                   "View the licenses of the packages used to make this blog!",
                   applicationLegalese: 'GNU General Public License v3.0');

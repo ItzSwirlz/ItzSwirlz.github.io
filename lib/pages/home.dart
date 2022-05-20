@@ -27,7 +27,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Blog of Joshua Peisach"),
+        title: const Text("Website of Joshua Peisach"),
         actions: [
           TextButton(
             child: const Text('Blogs'),
@@ -42,7 +42,7 @@ class _HomePageState extends State<HomePage> {
             onPressed: () {
               showAboutDialog(
                   context: context,
-                  applicationName: "ItzSwirlz's Blog",
+                  applicationName: "ItzSwirlz's Website",
                   applicationVersion:
                   "View the licenses of the packages used to make this blog!",
                   applicationLegalese: 'GNU General Public License v3.0');
@@ -54,10 +54,10 @@ class _HomePageState extends State<HomePage> {
         child: YaruPage(
           children: [
             Text(
-                "Welcome to my blog! It is pretty small at the moment, considering I just started it, but it will grow.",
+                "Welcome to my website! It is pretty small at the moment, considering I just started it, but it will grow.",
                 textScaleFactor: 2.0),
             Text(
-                "This is not a regular blog built using WordPress or Weebly, but in fact it is a blog built ground-up, from scratch with love in Flutter!",
+                "This is not a regular blog/site built using WordPress or Weebly, but in fact it is a site built ground-up, from scratch with love in Flutter!",
                 textScaleFactor: 2.0),
             Text("Uh... check back for when I continue working on this thing."),
           ],
