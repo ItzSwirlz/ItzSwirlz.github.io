@@ -1,0 +1,162 @@
+{
+  "main": {
+    "id": "1a724da215e97c47",
+    "type": "split",
+    "children": [
+      {
+        "id": "9f2e88bf0bd16e12",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f72707c833c61910",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2eab87e0b1c29e1d",
+    "type": "split",
+    "children": [
+      {
+        "id": "eee4f0efb56905e9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f27a719617fbf23a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "27e778c7595c8ede",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b7897c3cfbc2c3ce",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a633fab01be2747b",
+    "type": "split",
+    "children": [
+      {
+        "id": "4875104e90a58c28",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5df85d6b7502c26f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6409095eac1f1607",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d4bd62c8f1537fa6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "bd136675a1f53479",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "f72707c833c61910",
+  "lastOpenFiles": [
+    "_site/assets/ristretto.png",
+    "assets/ristretto.png",
+    "_site/assets/ristrettoreq.png",
+    "assets/ristrettoreq.png",
+    "assets",
+    "_site/assets/minima-social-icons.svg",
+    "_posts/2024-09-24-the-start-of-wiiu-home-automation.md",
+    "_site/wiiu/ristretto/iot/homekit/2024/09/24/the-start-of-wiiu-home-automation.html",
+    "_site/wiiu/ristretto/iot/homekit/2024/09/24",
+    "_site/wiiu/ristretto/iot/homekit/2024/09",
+    "_site/wiiu/ristretto/iot/homekit/2024",
+    "_site/wiiu/ristretto/iot/homekit",
+    "_site/wiiu/ristretto/iot",
+    "_site/wiiu/ristretto",
+    "_site/wiiu",
+    "_site/assets/ristretto-2.png",
+    "_posts/2024-09-22-welcome-to-jekyll.md",
+    "Untitled.md"
+  ]
+}
