@@ -1,8 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
+@bg: #282A36;
+@currentline: #44475a;
+@fg: #F8F8F2;
+@comment: #6272A4;
+
 * {
     font-family: "Ubuntu";
-    background-color: gray;
+    background-color: @bg;
+    color: @fg;
+}
+
+hr {
+    border-width: 20px;
+    border-left-color: lighten(@currentline, 25%);
+    border-right-color: #282F3E;
+    border-top-color: lighten(@currentline, 25%);
+    border-bottom-color: @currentline;
 }
 
 header {
@@ -27,9 +41,39 @@ footer {
     }
 }
 
+.about {
+    margin-left: 20%;
+}
+
+.ubuntucinnamon {
+    display: inline-block;
+    background: lighten(@bg, 10%);
+    padding: 10px;
+    padding-right: 200px;
+    border-radius: 20px;
+}
+
+.ubuntucinnamon:hover {
+    animation: fadeinuc 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeinuc {
+    from {
+        background: lighten(@bg, 10%);
+    }
+    to {
+        background: #DD682A;
+    }
+}
+
 .construction {
     text-align: center;
     align-content: center;
     color: white;
     background-color: orange;
+}
+
+header {
+    padding: 10px;
 }
