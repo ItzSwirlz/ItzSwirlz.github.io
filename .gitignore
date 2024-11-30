@@ -6,4 +6,4 @@ vendor
 
 *.css
 target/
-Cargo.toml
+Cargo.lock

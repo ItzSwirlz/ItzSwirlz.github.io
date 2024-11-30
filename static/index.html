@@ -7,6 +7,8 @@
         </div>
         <nav>
             <a href="#">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
             <a href="/blog">Blog (the yapping cradle)</a>
         </nav>
     </header>
@@ -19,21 +21,57 @@
                 on something cool
             </h5>
         </div>
-        <hr />
-        <div class="about">
+        <hr class="page-hr" />
+        <div class="about-ctr" id="about">
             <h3>About Me</h3>
-            <p>
-                Hi, you can call me Josh. I have a lot of different interests,
-                so... just take a look at what I have
-            </p>
+            <div class="about">
+                <div class="pfp">
+                    <img src="img/pfp.jpg" />
+                </div>
+                <div class="about-text">
+                    <h3>Hi, you can call me Josh.</h3>
+                    <hr />
+                    <br />
+                    <p>
+                        One day, my Dad brought me into his workplace. He showed
+                        me VirtualBox, and I played around with it. From there I
+                        had found my love of computers and operating systems.
+                    </p>
+                    <br />
+                    <p>
+                        I had also grew up playing Minecraft. So much so that
+                        when I was eight, I made my first Minecraft mod (I
+                        learned from YouTube videos).
+                    </p>
+                    <br />
+                    <p>
+                        From there, I taught myself how to code. Now I do lots
+                        of things and I strive to learn as much as possible.
+                    </p>
+                </div>
+            </div>
         </div>
-        <hr />
-        <div class="projects">
+        <hr class="page-hr" />
+        <div class="projects" id="projects">
             <ul class="projectlist">
+                <h3>My Projects</h3>
                 <div>
                     <li class="ubuntucinnamon">Ubuntu Cinnamon</li>
+                    <div class="ubuntucinnamon-text">
+                        <h4>Ubuntu Cinnamon</h4>
+                        <p>Ubuntu Cinnamon is a flavor of Ubuntu</p>
+                    </div>
                 </div>
-                <li class="ristretto">Ristretto</li>
+                <div>
+                    <li class="ristretto">Ristretto</li>
+                    <div class="ristretto-text">
+                        <h4>Ristretto</h4>
+                        <p>
+                            Ristretto is a project that makes the Nintendo Wii U
+                            join the Internet of Things.
+                        </p>
+                    </div>
+                </div>
             </ul>
         </div>
         <hr />
@@ -42,10 +80,17 @@
         </div>
     </body>
     <footer>
+        <p>Built with:</p>
+        <div class="vl"></div>
         <div class="rocket">
-            Built with
             <a href="https://rocket.rs"
                 ><img src="https://rocket.rs/images/box-logo.png"
+            /></a>
+        </div>
+        <div class="vl"></div>
+        <div class="less">
+            <a href="https://lesscss.org"
+                ><img src="https://lesscss.org/public/img/less_logo.png"
             /></a>
         </div>
     </footer>

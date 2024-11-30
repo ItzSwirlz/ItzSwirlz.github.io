@@ -4,6 +4,16 @@
 @currentline: #44475a;
 @fg: #F8F8F2;
 @comment: #6272A4;
+@d: #282F3E;
+
+.standard-margin {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+br {
+    width: 50px;
+}
 
 * {
     font-family: "Ubuntu";
@@ -11,10 +21,13 @@
     color: @fg;
 }
 
-hr {
+.page-hr {
+    border-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
     border-width: 20px;
     border-left-color: lighten(@currentline, 25%);
-    border-right-color: #282F3E;
+    border-right-color: lighten(@currentline, 25%);
     border-top-color: lighten(@currentline, 25%);
     border-bottom-color: @currentline;
 }
@@ -36,26 +49,89 @@ footer {
     display: flex;
     justify-content: center;
     align-content: center;
-    & > .rocket > a > img {
+    & > * > a > img {
         max-width: 20%;
     }
 }
 
+.about-ctr {
+    .standard-margin;
+}
+
 .about {
-    margin-left: 20%;
+    display: flex;
+    margin: 10px;
+    margin-bottom: 20px;
+    gap: 100px;
+}
+
+.projects {
+    .standard-margin;
+    display: flex;
+    gap: 100px;
+    padding-bottom: 20px;
+}
+
+.projectlist > div {
+    display: block;
+    flex-direction: column;
+    padding: 20px;
 }
 
 .ubuntucinnamon {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     background: lighten(@bg, 10%);
     padding: 10px;
-    padding-right: 200px;
+    padding-right: 101px;
     border-radius: 20px;
+    float: left;
+}
+
+.ristretto {
+    display: flex;
+    flex-direction: column;
+    background: lighten(@bg, 10%);
+    padding: 10px;
+    padding-right: 169px;
+    border-radius: 20px;
+    float: left;
+}
+
+.ubuntucinnamon-text, .ristretto-text {
+    align-content: right;
+    justify-content: right;
+    padding-left: 100px;
+    display: none;
+    animation: fadein 0.5s;
+    float: right;
 }
 
 .ubuntucinnamon:hover {
     animation: fadeinuc 0.5s;
     animation-fill-mode: forwards;
+}
+
+.ristretto:hover {
+    animation: fadeinristretto 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.ubuntucinnamon:hover + .ubuntucinnamon-text {
+    display: inline-block;
+}
+
+.ristretto:hover + .ristretto-text {
+    display: inline-block;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 @keyframes fadeinuc {
@@ -67,13 +143,30 @@ footer {
     }
 }
 
+@keyframes fadeinristretto {
+    from {
+        background: lighten(@bg, 10%);
+    }
+    to {
+        background: brown;
+    }
+}
+
 .construction {
     text-align: center;
     align-content: center;
     color: white;
     background-color: orange;
+    & > h1, & > h5 {
+        color: white;
+        background-color: orange;
+    }
 }
 
 header {
     padding: 10px;
+}
+
+.vl {
+    border-left: thin solid @fg;
 }
