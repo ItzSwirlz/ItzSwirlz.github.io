@@ -13,7 +13,10 @@
 }
 
 .hr-footer {
-    height: 10px;
+    height: 0px;
+    padding: 0px;
+    margin: 0px;
+    color: @bg;
 }
 
 br {
@@ -24,6 +27,42 @@ body {
     font-family: "Ubuntu";
     background-color: @bg;
     color: @fg;
+}
+
+a:link, a:visited {
+    color: @fg;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    & > a {
+        flex: 1;
+        display: block;
+        align-content: center;
+        text-align: center;
+        justify-content: center;
+        border-left: 1px solid white;
+    }
+    & > a:hover {
+        background-color: lighten(@currentline, 25%);
+    }
+    & > .first {
+        border-left: 0px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    & > .last {
+        border-right: 0px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    background-color: @currentline;
+    margin-left: 2em;
+    margin-right: 2em;
+    border-radius: 10px;
 }
 
 .page-hr {
@@ -62,11 +101,17 @@ header {
 }
 
 footer {
-    display: flex;
     justify-content: center;
     align-content: center;
+    text-align: center;
+    background-color: @comment;
     & > * > a > img {
         max-width: 20%;
+    }
+    & > div {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
     }
 }
 
