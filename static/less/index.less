@@ -11,6 +11,10 @@
     margin-right: 20%;
 }
 
+.hr-footer {
+    height: 10px;
+}
+
 br {
     width: 50px;
 }
@@ -30,6 +34,17 @@ br {
     border-right-color: lighten(@currentline, 25%);
     border-top-color: lighten(@currentline, 25%);
     border-bottom-color: @currentline;
+}
+
+.page-hr-inv {
+    border-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 20px;
+    border-left-color: lighten(@currentline, 25%);
+    border-right-color: lighten(@currentline, 25%);
+    border-bottom-color: lighten(@currentline, 25%);
+    border-top-color: @currentline;
 }
 
 header {
@@ -63,6 +78,7 @@ footer {
     margin: 10px;
     margin-bottom: 20px;
     gap: 100px;
+    animation: fadein 0.5s;
 }
 
 .projects {
@@ -165,6 +181,24 @@ footer {
 
 header {
     padding: 10px;
+}
+
+.contact {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-row {
+    display: flex;
+    justify-content: center;
+    * > img {
+        max-width: 200px;
+        max-height: 200px;
+        border-radius: 20px;
+        background: @currentline;
+    }
+    gap: 200px;
 }
 
 .vl {
