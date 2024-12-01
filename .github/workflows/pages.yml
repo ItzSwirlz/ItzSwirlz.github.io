@@ -46,9 +46,11 @@ jobs:
           toolchain: stable
           override: true
 
-      - name: Set up Less
+      - name: Set up Node (for Less)
         uses: actions/setup-node@v3
         id: less
+
+      - name: Setup Less
         run: npm install -g less
 
       - name: Setup Pages
