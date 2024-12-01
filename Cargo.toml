@@ -5,4 +5,5 @@ edition = "2021"
 build = "build.rs"
 
 [dependencies]
+just = "1.37.0"
 rocket = "0.5.1"
