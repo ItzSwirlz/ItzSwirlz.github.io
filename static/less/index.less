@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import "index-media.less";
 
 @bg: #282A36;
 @currentline: #44475a;
@@ -19,7 +20,7 @@ br {
     width: 50px;
 }
 
-* {
+body {
     font-family: "Ubuntu";
     background-color: @bg;
     color: @fg;
@@ -71,6 +72,10 @@ footer {
 
 .about-ctr {
     .standard-margin;
+    & > h1 {
+        text-align: center;
+        padding-left: 30px;
+    }
 }
 
 .about {
@@ -83,10 +88,16 @@ footer {
 
 .projects {
     .standard-margin;
-    display: flex;
     gap: 100px;
     padding-bottom: 20px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    & > h1 {
+        padding-left: 30px;
+    }
 }
+
 
 .projectlist > div {
     display: block;
@@ -94,33 +105,24 @@ footer {
     padding: 20px;
 }
 
-.ubuntucinnamon {
+.ubuntucinnamon, .ristretto {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
     display: flex;
     flex-direction: column;
     background: lighten(@bg, 10%);
     padding: 10px;
-    padding-right: 101px;
     border-radius: 20px;
-    float: left;
-}
-
-.ristretto {
-    display: flex;
-    flex-direction: column;
-    background: lighten(@bg, 10%);
-    padding: 10px;
-    padding-right: 169px;
-    border-radius: 20px;
-    float: left;
 }
 
 .ubuntucinnamon-text, .ristretto-text {
-    align-content: right;
-    justify-content: right;
-    padding-left: 100px;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
     display: none;
     animation: fadein 0.5s;
-    float: right;
 }
 
 .ubuntucinnamon:hover {
@@ -187,6 +189,7 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .contact-row {
@@ -196,9 +199,21 @@ header {
         max-width: 200px;
         max-height: 200px;
         border-radius: 20px;
-        background: @currentline;
+        /* background: @currentline; */
     }
-    gap: 200px;
+    gap: 3em;
+}
+
+.gh {
+    filter: invert(1);
+}
+
+.mail {
+    filter: grayscale(1);
+}
+
+.linkedin-img {
+    align-items: center;
 }
 
 .vl {

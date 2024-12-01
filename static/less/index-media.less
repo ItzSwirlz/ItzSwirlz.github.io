@@ -1,0 +1,33 @@
+// responsiveness for other devices
+@media screen and (max-width: 600px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+
+        * > p, * > h3, * > pfp > img {
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+    }
+
+    .ubuntucinnamon + .ubuntucinnamon-text {
+        display: block;
+    }
+
+    .ristretto + .ristretto-text {
+        display: block;
+    }
+
+    .ubuntucinnamon-text, .ristretto-text {
+        display: block;
+        align-content: center;
+        text-align: center;
+        justify-content: center;
+        padding: 0px;
+    }
+
+    .contact-row {
+        flex-direction: column;
+    }
+}
