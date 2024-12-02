@@ -11,6 +11,6 @@ Cargo.lock
 static/blog/
 # I use this because I use tide shell and I like seeing the less context (i made a custom function)
 ./index.less
-.DS-Store
+.DS_Store
 .idea
 .obsidian
