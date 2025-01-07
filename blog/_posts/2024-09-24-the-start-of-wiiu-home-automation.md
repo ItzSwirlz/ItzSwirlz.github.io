@@ -43,7 +43,7 @@ Well, I realized that since the PlayStation 4 and Xbox have integrations on Home
 The Wii U is incredibly valuable because of its possibilities on a modded console and its crazy backwards compatibility - you can play almost every single Nintendo game prior to the Switch. Since I had gone through the effort of setting up a local Homebridge server and hooking up everything, I knew that with Aroma something like this is possible, allowing for devices to communicate across the network. And that was when I got myself into what I dedicated the next month (and counting) of my free time to.
 
 # Introducing: Ristretto
-<center><img src="/assets/ristretto.png"></center>
+<center><img src="/blog/assets/ristretto.png"></center>
 
 Ristretto is an Aroma plugin which is meant to enable home automation on your console. It basically runs an HTTP server (if you don't know what that is, just think of it as a way that lets devices over the same network send requests to the Wii U). Whenever requested, at any point in time where the console is running, the custom firmware and plugin server are active, you can, from your computer or electronic device you are reading this on (unless you printed this page out or downloaded it):
 - Get the console's hardware information
@@ -60,7 +60,7 @@ If you don't want to read the technical explanation, or you just aren't get with
 I chose HTTP because it's nice and simple. My main concern about this project was being able to even get an HTTP server running, because I do not know networking. However, thanks to [tinyhttp](https://github.com/kissbeni/tinyhttp) I was able to reuse a tiny C++ implementation of an HTTP server and get it running as part of the plugin.
 
 The entire thing works by basically asking the console for something or to do something, and then waiting for its response.
-<img src="/assets/ristrettoreq.png">
+<img src="/blog/assets/ristrettoreq.png">
 
 Now, this is how the server works - but how does HomeKit communicate to the device directly? It looks something like this: (source: linkdhome.com)
 <img src="https://images.squarespace-cdn.com/content/v1/58fb28d7e3df282054f72a55/1620709696664-8X41ZMUM8L3FS2QQBO2X/HomeKit-comms.jpg">
