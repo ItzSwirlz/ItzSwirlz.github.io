@@ -26,7 +26,7 @@ The first thing you will see when you open the files for the first time (and tru
 Just to be clear, this is not the entire extension. In fact, those lines that look like gibberish on the top is actually code... and it goes on in one line... for many, *many* characters.
 
 ## How Honey Was (Likely) Deployed
-Honey most likely used a bundler, like [Webpack](https://webpack.js.org) (for example), to deploy its product. That is fine, but one of the techniques Honey did (which is standard) is to sort of "minimize" the code as much as possible. JavaScript does not need the indentations and paragraph breaks and lines that us humans need to read code. It can all be read as one string. Furthermore, to the public, variable names don't matter, so they can be anything. It doesn't have to make sense. That is why the file is a few lines of millions of characters of code with some copyright licensing metadata in between.
+Honey used a bundler, [Webpack](https://webpack.js.org) , I'm pretty sure, based on strings in the code, to deploy its product. That is fine, but one of the techniques Honey did (which is standard) is to sort of "minimize" the code as much as possible. JavaScript does not need the indentations and paragraph breaks and lines that us humans need to read code. It can all be read as one string. Furthermore, to the public, variable names don't matter, so they can be anything. It doesn't have to make sense. That is why the file is a few lines of millions of characters of code with some copyright licensing metadata in between.
 
 Using [js-beautify](https://github.com/beautifier/js-beautify), this isn't an issue. We can format the file to our liking, to be read by a human. Unfortunately, there are still lots of missing variable names, and because of whatever bundler was used, things are still hard to read and make sense of. The file is also more than 100,000 lines long.
 
@@ -321,9 +321,10 @@ Here were some honorable mentions:
 - **Minecraft** - yes, `minecraft.net` (this is so stupid: I don't even think you can buy anything on that website, purchases I believe go through the Microsoft store for Bedrock edition)
 - WordPress (for some reason???)
 - AMD
-- Mee6 (the discord bot?)
+- Mee6 (the discord bot)
+	- *Update: I have reached out to Mee6. They do not have affiliate deals or commissions, and their coupon codes are very public, so they should be unaffected. They will investigate nonetheless.*
 - BitDefender, Avast, and other antivirus software
-- **HYPIXEL.** Yes, the **largest multiplayer server in Minecraft.**
+- **Hypixel.** Yes, the **largest multiplayer server in Minecraft.**
 - Steam (`steampowered.net`)
 - JetBrains
 - Xfinity
@@ -331,6 +332,8 @@ Here were some honorable mentions:
 - Medium
 - Kahoot
 - World of Tanks
+- Roblox
+- FlightRadar24
 
 However, in my testing, I found that Honey does find coupons for [TheCubicle](thecubicle.us) but it is not mentioned here. When testing, I have not found enough proof of a PayPal cookie or storage item being set after running through the extension. **I am not 100% sure, but I believe that this list MAY be a list of "acceptable domains" for Honey to replace affiliate commission cookies with their own (PayPal)'s. I still have a lot of tracing and research to do, but I think this is unfortunately, a possibility.**
 
@@ -344,3 +347,5 @@ I have unfortunately not found anything that can 100% confirm beyond reasonable 
 Most likely there will be a follow up post, and at least many revisions to this post with corrections, updates, more screenshots, and better explanations of how things work. I've been typing this for about an hour, and I'm just eager to send this out ASAP along with the list of DACs and Store URLs.
 
 If you want to join the effort, feel free to open a pull request to my repository. There is lots to do.
+
+*Updated on January 7 2024 at 11:42 AM EST: Update with new knowledge regarding Webpack being used as the bundler and Mee6's response. Also add Flightradar24 and Roblox to the list of store urls.*
