@@ -15,7 +15,7 @@ I stopped looking into the extension to focus on school and more important thing
 
 The only thing I think MegaLag has not talked about **yet** (he is probably aware), is about the "max coupons" thing - which will probably be covered soon, amongst other things, since MegaLag has already spoken to professional security researchers.
 
-That being said - I have done my part. My information has been passed off to those who know what to do with it, and there are people who have pretty much uncovered more than I was able to. I only found about 900 stores being tracked by Honey - the actual figure was much higher.
+That being said - I have done my part. [My information](https://github.com/jpeisach/honey-extension-archive) has been passed off to those who know what to do with it, and there are people who have pretty much uncovered more than I was able to. I only found about 900 stores being tracked by Honey - the actual figure was much higher.
 
 So, I am going to stop looking into the Honey extension, unless I get really bored or something else comes up. 
 
