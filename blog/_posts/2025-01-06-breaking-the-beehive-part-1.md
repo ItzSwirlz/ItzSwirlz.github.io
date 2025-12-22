@@ -348,4 +348,4 @@ Most likely there will be a follow up post, and at least many revisions to this 
 
 If you want to join the effort, feel free to open a pull request to my repository. There is lots to do.
 
-*Updated on January 7 2024 at 11:42 AM EST: Update with new knowledge regarding Webpack being used as the bundler and Mee6's response. Also add Flightradar24 and Roblox to the list of store urls.*
+*Updated on January 7 2025 at 11:42 AM EST: Update with new knowledge regarding Webpack being used as the bundler and Mee6's response. Also add Flightradar24 and Roblox to the list of store urls.*
