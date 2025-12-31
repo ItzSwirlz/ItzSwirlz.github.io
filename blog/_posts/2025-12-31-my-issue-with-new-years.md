@@ -66,6 +66,8 @@ If you exit the US, you can find international traditions. Apparently in some co
 
 Or, you can do what I do. Enjoy not really caring that much, or enjoy watching the other things around the world or with the clock. Not often do you get to stay up to watch the clock turn to midnight or 00:00, let alone any other day or month transition as it happens. Or you can pull up a [world time map](https://www.timeanddate.com/time/map/) and watch as different countries enter the new year. It is pretty cool to think that when you wake up, some people may already be in January.
 
+What is also cool is the the [billboard in LA about smoke deaths](https://www.reddit.com/r/LosAngeles/comments/1hqsdje/reminder_new_years_eve_smoking_deaths_billboard/) each year. It just counts up, but it resets at midnight on Jan 1. So it resets to zero, and that is the BEST celebration out there. Even better than the ball drop. THIS is a proper celebration. No stupidity, just celebrating something that actually makes sense to celebrate - nobody died from smoking so far this year! Yay! People are healthy and alive! (Not really but it's funny.)
+
 There are some streamers on Twitch I like to watch, literally only on New Year's. I don't watch them anytime else, it's just my own tradition to say hello.
 
 This year, I actually watched Sydney's fireworks and lights celebration. Aside from the fireworks being loud, the electronic music played on the live stream was fun. The bridge was lit up, there were lights, it was a lot of fun, and people just quietly sat back from the side and watched the show without resorting to being stupid. Again, if it wasn't for the fireworks, I would consider going. (Why can't we adopt drone shows?)
